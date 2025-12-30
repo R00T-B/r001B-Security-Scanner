@@ -20,3 +20,13 @@
 git clone https://github.com/R00T-B/Social-Media-Security-Toolkit.git
 cd Social-Media-Security-Toolkit
 python3 main.py
+
+📋 Kullanım
+# Örnek kullanım
+from modules.reconnaissance import Reconnaissance
+
+scanner = Reconnaissance()
+results = scanner.username_search("target_user", ["twitter", "instagram"])
+
+⚠️ Sorumluluk Reddi
+Bu araç sadece ethical hacking ve authorized penetration testing amaçlıdır. Yerel yasalar çerçevesinde kullanın.
